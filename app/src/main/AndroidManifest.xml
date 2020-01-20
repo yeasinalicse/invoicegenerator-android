@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="info.yeasin.pdf_generator_android">
+    package="info.yeasin.invoice_generator_android">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name= "android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name= "android.permission.READ_EXTERNAL_STORAGE" />
@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="info.yeasin.invoice_generator_android.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

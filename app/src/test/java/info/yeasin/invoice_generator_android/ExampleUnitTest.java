@@ -1,4 +1,4 @@
-package info.yeasin.pdf_generator_android;
+package info.yeasin.invoice_generator_android;
 
 import org.junit.Test;
 
